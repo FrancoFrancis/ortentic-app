@@ -1,0 +1,16 @@
+
+
+.cat {
+    background-color: black;
+    color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+
+    h1{
+        font-size: 1.8rem;
+        text-transform: uppercase;
+    }
+}

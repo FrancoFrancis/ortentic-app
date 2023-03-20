@@ -1,0 +1,143 @@
+.featuredProducts{
+    margin: 100px 100px;
+    padding-top: 10px;
+
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        gap: 30px;
+
+        h1{
+            flex: 2;
+            text-transform: capitalize;
+            font-size: 2.3rem;
+        }
+
+        p{
+            flex: 3;
+            text-align: center;
+            max-width: 250px;
+        }
+
+       
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+// RESPONSIVE BANNER 
+
+@media screen and (max-width: 992px) {
+
+    .featuredProducts{
+        margin: 100px 100px;
+        // background-color: white;
+    
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            
+    
+            h1{
+                flex: 2;
+                text-transform: capitalize;
+    
+            }
+    
+            p{
+                flex: 3;
+                // flex-wrap: wrap;
+
+            }
+    
+           
+        }
+    
+        .bottom {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+           
+        }
+    
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .featuredProducts{
+        margin: 100px 100px;
+        
+        .top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            
+            h1{
+                flex: 2;
+                text-transform: capitalize;
+                font-size: 18px;
+            }
+    
+            p{
+                flex: 3;
+                font-size: 12px;
+            }   
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: center;
+            gap: 20px;   
+        }
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .featuredProducts{
+        margin: 100px 100px;
+        
+        .top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            
+            h1{
+                flex: 2;
+                text-transform: capitalize;
+                font-size: 18px;
+            }
+    
+            p{
+                flex: 3;
+                font-size: 12px;
+            }   
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: center;
+            gap: 20px;   
+        }
+    }
+}

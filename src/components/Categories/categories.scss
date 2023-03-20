@@ -1,0 +1,226 @@
+.categories {
+    display: flex;
+    height: 80vh;
+    gap: 10px;
+    margin: 100px 100px;
+    color: black;
+
+   
+
+    .col{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .col-l{
+        display: flex;
+        flex: 2;
+    }
+
+    .row{
+        flex: 1;
+        display: flex;
+        gap: 10px;
+        position: relative;
+        overflow: hidden;
+
+        button{
+            position: absolute;
+            min-width: 100px;
+            width: fit-content;
+            height: 50px;
+            padding: 10px;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            cursor: pointer;
+            border: none;
+            text-transform: uppercase;
+            // border-radius: 10px;
+            background-color: #5e17eb;
+            color: whitesmoke;
+            font-weight: 500;
+        }
+
+
+        button:hover{
+            background: #4107b5;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 742px) {
+    
+    button{
+        position: absolute;
+        min-width: 60px;
+        width: fit-content;
+        height: 30px;
+        padding: 7px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        cursor: pointer;
+        border: none;
+        text-transform: uppercase;
+        border-radius: 40px;
+        background-color: #5e17eb;
+        color: whitesmoke;
+        font-weight: 400;
+        font-size:1rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+// @media screen and (max-width: 576px) 
+
+    .categories {
+        background-color: #ffffff;
+        display: flex;
+        height: 90vh;
+        gap: 10px;
+        margin: 50px 50px;
+        color: black;
+        // background-color: yellow;
+    
+        .col{
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            // background-color: red;
+            
+        }
+    
+        .col-l{
+            display: flex;
+            // flex-direction: column;
+            flex: 2;
+            // background-color: rgb(3, 129, 151);
+        }
+    
+        .row{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            position: relative;
+            overflow: hidden;
+            // background-color: pink;
+    
+            button{
+                position: absolute;
+                min-width: 60px;
+                width: fit-content;
+                height: 30px;
+                padding: 12px;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                cursor: pointer;
+                border: none;
+                text-transform: uppercase;
+                border-radius: 40px;
+                // background-color: #17eb45;
+                background-color: #5e17eb;
+                color: whitesmoke;
+                font-weight: 200;
+                font-size:8px;
+                // rotate: -300deg;
+            }
+
+    
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+
+// @media screen and (max-width: 576px) {
+
+//     .categories {
+//         background-color: #adacae;
+//         display: flex;
+//         height: 80vh;
+//         gap: 10px;
+//         margin: 100px 100px;
+//         color: black;
+//         background-color: yellow;
+    
+//         .col{
+//             flex: 3;
+//             display: flex;
+//             flex-direction: column;
+//             gap: 10px;
+//             background-color: red;
+//         }
+    
+//         .col-l{
+//             display: flex;
+//            
+//             flex: 2;
+//             background-color: rgb(3, 129, 151);
+//         }
+    
+//         .row{
+//             flex: 1;
+//             display: flex;
+//             flex-direction: column;
+//             gap: 10px;
+//             position: relative;
+//             overflow: hidden;
+//             background-color: pink;
+    
+//             button{
+//                 position: absolute;
+//                 min-width: 70px;
+//                 width: fit-content;
+//                 height: 30px;
+//                 padding: 8px;
+//                 top: 0;
+//                 left: 0;
+//                 right: 0;
+//                 bottom: 0;
+//                 margin: auto;
+//                 cursor: pointer;
+//                 border: none;
+//                 text-transform: uppercase;
+//                 border-radius: 40px;
+//                 background-color: #5e17eb;
+//                 color: whitesmoke;
+//                 font-weight: 400;
+//                 font-size: 8px;
+//             }
+    
+//             img{
+//                 width: 90%;
+//                 height: 90%;
+//                 object-fit: cover;
+//             }
+//         }
+//     }
+
+// }
+
+

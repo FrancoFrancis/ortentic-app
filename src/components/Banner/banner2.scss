@@ -1,0 +1,229 @@
+
+
+
+.container {
+    padding: 20px;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: #5e17eb;
+    color: white;
+ 
+
+    .heading-brief{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 80vh;
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+        // background-color: #550fe0;
+
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 8.5rem;
+            letter-spacing: 3.2px;
+            width: 100%;
+        }
+
+        .brief {
+            font-size:1.2rem;
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            display: block;
+            line-height: 30px;
+            width: 100%;
+        
+    
+            .grade-A {
+                display: inline-block;
+                font-weight: bold;
+                background-color: rgb(255, 255, 255);
+                padding: 5px 5px;
+                font-weight: 800;
+                margin:2px;
+                color: black;
+            }
+        }
+
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        flex-basis: auto;
+
+    }
+
+    .image-container {
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+
+        img {
+            width: 80%;
+            max-width: 500px;
+            height: 80%;
+            align-items: center;
+        }
+    }
+    
+
+    .icon {
+        font-size: 30em;
+    }
+}
+
+
+// RESPONSIVE BANNER    color: rgb(235, 152, 18);
+
+ @media screen and (max-width: 992px) {
+
+    .container {
+        
+     
+    
+        .heading-brief{
+           
+    
+            h1{
+                font-size: 6.7rem;
+              
+            }
+    
+            .brief {
+                   
+        
+                .grade-A {
+                    
+                }
+            }
+    
+        }
+    
+    
+        .image-container {
+           
+    
+            img {
+
+            }
+        }
+        
+    
+        .icon {
+
+        }
+    }
+    
+
+
+ }
+
+// 768px
+
+@media screen and (max-width: 768px) {
+
+        .container {
+         
+        
+            .heading-brief{
+               
+        
+                h1{
+                  
+                }
+        
+                .brief {
+                       
+            
+                    .grade-A {
+                        
+                    }
+                }
+        
+            }
+        
+        
+            .image-container {
+               
+        
+                img {
+    
+                }
+            }
+            
+        
+            .icon {
+    
+            }
+        }
+
+}
+
+
+
+
+// @media screen and (max-width: 576px) {
+
+
+//     .container{
+//         flex-direction: column;
+//         height: 90vh;
+//         gap: 20px;
+//         justify-content: flex-start;
+        
+
+//         .image-container {
+//         height: 400px;
+//         width: 400px;
+//         margin: 0;
+//         padding: 5px;
+//         border-radius: 0;
+//         justify-content: center;
+//         }
+
+//         img{
+//             width: 50px;
+//             height: 50px;
+//         }
+  
+
+
+//     h1 {
+//             font-size:5em;
+//             letter-spacing: 1.5px;
+//         }
+
+
+//         .brief {
+//             font-size:1em;
+//             font-weight: bold;
+//             align-items: center;
+//             letter-spacing: 1px;
+//             display: block;
+//             line-height: 20px;
+//             width: 300px;
+    
+//             .grade-A {
+//                 font-weight: bold;
+//                 background-color: rgba(0, 0, 0, 0.137);
+//                 padding: 3PX 5PX;
+//             }
+//         }
+//     }
+
+// }

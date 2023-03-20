@@ -1,0 +1,130 @@
+.footer {
+  padding: 100px 100px;
+  background-color: #5e17eb;
+  width: 100vw;
+  color: white;
+  z-index: 6;
+
+  // margin: 100px 200px 20px 200px;
+
+  .top {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    
+
+        
+        .touchy{
+            position: absolute;
+            top: -140px;
+            right: -450px;
+            height: 100%;
+            width:60%;
+            z-index: 1;
+        }
+
+    .item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: start;
+      font-size: 14px;
+
+      .design {
+        position: absolute;
+        top: -10px;
+        left: -20px;
+        height: 35px;
+        width: 60px;
+        background-color: rgba(0, 0, 0, 0.283);
+        z-index: -4322;
+        border-radius: 10px;
+      }
+
+      h1 {
+        position: relative;
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+
+
+    .left {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 50px;
+
+      .logo {
+        font-weight: bold;
+        font-size: 24px;
+        color: rgb(235, 152, 18);
+      }
+
+      .copyright {
+        margin-left: 20px;
+        font-size: 12px;
+        display: block;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+      }
+    }
+    .right {
+      img {
+        height: 50px;
+        width: 100%;
+        align-items: center;
+      }
+    }
+  }
+}
+
+// RESPONSIVE FOOTER
+
+@media screen and (max-width: 576px) {
+
+  .footer{
+    .top{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      // align-items: center;
+    }
+
+    .bottom{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content:center;
+      align-items: center;
+      gap: 20px;
+      // background-color: blue;
+      // height: 30vh;
+
+
+      .left{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 100%;
+        // background-color: yellow;
+        align-self: start;
+
+        .logo{
+          font-size: 15px;
+        }
+
+      }
+  
+    }
+  }
+
+}

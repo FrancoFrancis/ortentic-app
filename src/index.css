@@ -1,0 +1,26 @@
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+html{
+  /* scroll-behavior: smooth; */
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #5e17eb; */
+  /* color: whitesmoke; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* 63952343 */

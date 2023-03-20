@@ -1,0 +1,35 @@
+
+.top-btn{
+    background-color: #1c034f ;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    color: white;
+    border-radius: 100%;
+    z-index: 888;
+    cursor: pointer;
+    
+
+    .top-btn-icon{
+        animation: mymove 1.2s linear infinite alternate-reverse;
+        position: relative;
+        // display: none;
+        
+        @keyframes mymove {
+            0% {
+                transform: translateY(-0.5rem);
+                
+            }
+       
+            100% {
+                transform: translateY(0.80rem);
+            }
+        }
+    }
+}
+
