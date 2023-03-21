@@ -233,11 +233,15 @@
                 .centre {
                     display:flex ;
                     flex-direction: column;
+                    a{
+                        color: #ffffff;
+                    }
                 }
 
                 .right {
                     display:flex ;
                     flex-direction: column;
+                    color: white;
 
                     .icons {
                         display: flex;
@@ -245,6 +249,7 @@
                         justify-content: center;
                         align-items: center;
                         gap: 50px;
+                        color: white;
                     }
                 }
             }
@@ -291,6 +296,10 @@
 
             .nav-items{
                 display: none;
+
+                span {
+                    color: white;
+                }
                 
             }
 
@@ -304,6 +313,7 @@
                 width: 100vw;
                 height: 80vh;
                 background-color: #4208b7;
+                color: white;
                 z-index: 467;
                 display: flex;
                 justify-content: space-evenly;
@@ -314,11 +324,17 @@
                 .centre {
                     display:flex ;
                     flex-direction: column;
+                    color: #fff;
+
+                    a{
+                        color: #ffffff;
+                    }
                 }
 
                 .right {
                     display:flex ;
                     flex-direction: column;
+                    color: white;
 
                     .icons {
                         display: flex;
@@ -326,6 +342,7 @@
                         justify-content: center;
                         align-items: center;
                         gap: 50px;
+                        color: white;
                     }
                 }
             }

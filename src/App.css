@@ -1,4 +1,16 @@
+
+@font-face {
+  font-family:"ClashGrotesk";
+  src: url("./fonts/ClashGrotesk-Variable.woff2") format("woff2");
+  font-weight: bolder;
+  font-display: swap;
+}
+
 *{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "ClashGrotesk";
+  font-weight: 400;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
