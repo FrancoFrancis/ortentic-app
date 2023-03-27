@@ -17,12 +17,13 @@ import Footer from './components/Footer/Footer';
 
 import "./app.scss"
 import React from 'react';
-import GoToTop from './components/ToTop/ToTop';
+import ScrollToTop from './components/scrollToTop/scrollToTop';
+
 
 const Layout = () => (
   
   <div className='app'>
-    <GoToTop/>
+    <ScrollToTop/>
     <Navbar />
     <Outlet />
     <Footer />

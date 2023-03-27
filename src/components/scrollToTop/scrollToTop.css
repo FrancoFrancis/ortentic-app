@@ -1,0 +1,37 @@
+
+
+.scroll-to-top{
+    background-color: #0b0120 ;
+    /* background-image: url("../../images/pattern1.webp"); */
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    color: white;
+    border-radius: 110px;
+    z-index: 888;
+    cursor: pointer;
+    padding: 9px;
+    font-size: 2rem;
+}
+
+.scroll-to-top .top-btn-icon{
+    animation: mymove 1.2s linear infinite alternate-reverse;
+    position: relative;
+  }
+
+@keyframes mymove {
+    0% {
+        transform: translateY(-0.5rem);
+        
+    }
+
+    100% {
+        transform: translateY(0.80rem);
+    }
+}

@@ -15,9 +15,9 @@ const Banner = () => {
                     and a wide variety of second new London used items</p>
 
                     <button>
-                        <h5>Explore Shop</h5>
-                        
-                        <KeyboardArrowDown/>
+                        <h4>Explore Shop</h4>
+                    
+                        <KeyboardArrowDown className="icon"/>
                     </button>
 
                     <img src="./images/shoppers.jpg" className="shoppers" alt="" />

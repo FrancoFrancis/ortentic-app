@@ -8,7 +8,7 @@ const Cat = () => {
 
     return (
       <div className="cat">
-        <h1>Shop From Different Stores/Categories  👇🏽</h1>
+        <h1>🛍️ Shop now From Different Stores/Categories </h1>
       </div>
     );
 // i3y0ifx4g6e9h
