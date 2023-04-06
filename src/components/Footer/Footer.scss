@@ -1,7 +1,7 @@
 .footer {
   padding: 100px 100px;
   // background-color: #5e17eb;
-  background-color: #300782;
+  background-color: #050506;
   width: 100vw;
   color: white;
   z-index: 6;
@@ -57,6 +57,49 @@
     justify-content: space-between;
     margin-top: 50px;
 
+    .mobile-app{
+      font-size: 1.7rem;
+      font-weight: bold;
+      pointer-events: none;
+      animation-name: colorChange;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+      animation-timing-function: linear;
+
+      .icons{
+        margin-left: 10px;
+        font-size: 1.8rem;
+      }
+
+      .ios{
+        color: gray;
+      }
+      .android{
+        color: lawngreen;
+      }
+    }
+
+
+    @keyframes colorChange {
+      0% {
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right, red, orange);
+      }
+      50% {
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right, orange, yellow);
+      }
+      100% {
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right, yellow, green);
+      }
+      
+    
+    }
+
 
 
     .left {
@@ -70,6 +113,8 @@
         font-size: 24px;
         color: rgb(235, 152, 18);
       }
+
+     
 
       .copyright {
         margin-left: 20px;

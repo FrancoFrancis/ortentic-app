@@ -5,7 +5,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import {Link} from "react-scroll"
 import "./Navbar.scss"
 import Cart from "../Cart/cart";
 
@@ -49,13 +50,13 @@ const Navbar = () => {
                         <Link className="link " to="/">Homepage</Link>
                     </div>
                     <div className="item">
-                        <Link className="link" to="/products/6">Product Cat </Link>
+                        <Link className="link" to="cat" spy={true} smooth={true} offset={50} duration={400}  >Product Categories </Link>
                     </div>
                     <div className="item">
                         <Link className="link" to="/products/7">Stores</Link>
                     </div>
                     <div className="item">
-                        <Link className="link" href="/contact"  >Contact</Link>
+                        <Link className="link" to="contact" spy={true} smooth={true} offset={50} duration={400}  >Contact</Link>
                         {/* <Link className="link" to="/products/8">Contact</Link> */}
                     </div>
                 </div>

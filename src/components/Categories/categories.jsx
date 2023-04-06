@@ -16,7 +16,7 @@ const Categories = ({type}) => {
       {/* one */}
       <div className="col">
         <div className="row">
-          <img src="./images2/purple-lady.jpeg" alt="" />
+          <img src="./images/ladies1.jpg" alt="" />
           <button>
             <Link className="link" to="./products/1">
               Ladies
@@ -24,11 +24,11 @@ const Categories = ({type}) => {
           </button>
         </div>
         <div className="row">
-          <img src="./images/hoodie4.jpg" alt="" />
+          <img src="./images2/kids1.jpg" alt="" />
           <button>
             <Link className="link" to="./products/1">
               {" "}
-              Couples
+              Kids
             </Link>
           </button>
         </div>
@@ -49,7 +49,7 @@ const Categories = ({type}) => {
         <div className="row">
           <div className="col">
             <div className="row">
-              <img src="./images/backpack1.jpg" alt="" />
+              <img src="./images/backpack2.jpg" alt="" />
               <button>
                 <Link className="link" to="./products/1">
                   Back pack
@@ -62,17 +62,18 @@ const Categories = ({type}) => {
               <img src="./images/lady.jpg" alt="" />
               <button>
                 <Link className="link" to="./products/1">
-                  jump suit
+                  
+                  Accesories
                 </Link>
               </button>
             </div>
           </div>
         </div>
         <div className="row">
-          <img src="./images/backpack1.jpg" alt="" />
+          <img src="./images/office-home.jpg" alt="" />
           <button>
             <Link className="link" to="./products/1">
-              Accesories
+            Office/Home
             </Link>
           </button>
         </div>

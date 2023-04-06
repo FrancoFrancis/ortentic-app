@@ -1,6 +1,7 @@
 // import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState, useEffect } from "react";
+import { FaArrowUp } from "react-icons/fa";
 import "./scrollToTop.css"
 
 function ScrollToTop() {
@@ -33,7 +34,9 @@ function ScrollToTop() {
       {isVisible && (
         <div className="scroll-to-top" onClick={scrollToTop}>
           {/* <FontAwesomeIcon icon={faArrowUp} className="top-btn-icon" /> */}
-          <span className="top-btn-icon" >^</span>
+          <span className="top-btn-icon" >
+            <FaArrowUp/>
+            </span>
         </div>
       )}
     </div>

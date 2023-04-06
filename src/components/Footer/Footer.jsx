@@ -1,5 +1,6 @@
 
 import React from "react";
+import { FaAndroid, FaApple } from "react-icons/fa";
 import './Footer.scss'
 
 const  Footer = () => {
@@ -54,8 +55,13 @@ const  Footer = () => {
             <div className="bottom">
                 <div className="left">
                     <span className="logo">Ortentic✔</span>
-                    <span className="copyright"> © 2023 Developed by Francis</span>
+                    <span className="copyright"> © 2023 </span>
                 </div>
+                <span className="mobile-app">
+                    Mobible App Coming soon
+                    <FaApple className="icons ios"/> 
+                    <FaAndroid className="icons android"/>
+                </span>
                 <div className="right">
                     <img src="/images/payment.png" alt="" />
                 </div>

@@ -60,6 +60,7 @@
         color: #5a11ee;
         transition: 0.2s ease-in-out;
         border-radius: 10%;
+        cursor:pointer;
     }
 
 
@@ -75,7 +76,8 @@
         color: black;
 
         .logo{
-            color: #5a11ee;
+            // color: #5a11ee;
+            color: orangered;
         }
 
         img {
