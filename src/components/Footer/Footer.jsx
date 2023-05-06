@@ -48,13 +48,13 @@ const  Footer = () => {
                     <span className="design"></span>
                     </h1>
                     <span>
-                        Contact ortentic team through the following channels
+                   Follow us on twitter and instagram through our social link or using the the contact form
                     </span>
                 </div>
             </div>
             <div className="bottom">
                 <div className="left">
-                    <span className="logo">Ortentic✔</span>
+                    <span className="logo">Ortentic</span>
                     <span className="copyright"> © 2023 </span>
                 </div>
                 <span className="mobile-app">

@@ -21,7 +21,7 @@ const Navbar = () => {
     const [open, setOpen] = React.useState(false)
 
     // hamburger
-    const [Mobile, setMobile] = React.useState(true)
+    const [Mobile, setMobile] = React.useState(false)
 
     return (
         <div className="navbar">
@@ -34,7 +34,7 @@ const Navbar = () => {
                    <Link className="link logo" to="/"><h3>Ortentic</h3></Link>
                 </div>
 
-                <div className={Mobile? "nav-items-mobile" : "nav-items"} onClick={() => setMobile(false)}>
+                <div className={Mobile? "nav-items-mobile" : "nav-items"} onClick={() => setMobile(true)}>
 
                   {/* center */}
                 <div className="centre">

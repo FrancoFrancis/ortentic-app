@@ -80,7 +80,7 @@ const FeaturedProducts = ({type}) => {
     ]
 
     return (
-        <div className="featuredProducts">
+        <div className="featuredProducts" id="FeaturedProducts">
 
             <div className="top" >
                 <h1>{type} Products</h1>
